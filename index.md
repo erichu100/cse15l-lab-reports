@@ -12,3 +12,7 @@ cat meow
 >* Cat
 1. Cat
 2. Cat
+
+---
+
+`cat`
