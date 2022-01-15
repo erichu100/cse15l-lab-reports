@@ -1,1 +1,6 @@
-![Image](indexScreenShot.png)
+![Image](vsInstall.png)
+![Image](remotelyConnecting.png)
+![Image](commandTest.png)
+![Image](sshTest.png)
+![Image](keyGeneration.png)
+![Image](sshShortcuts.png)
