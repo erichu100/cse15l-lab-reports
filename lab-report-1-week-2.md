@@ -32,5 +32,7 @@
 * Can use quotes to quickly run commands after `ssh`, but will return to local machine after the end quotes.
 * Semicolons string together commands in one line.
 * Can use the up arrow key to repeat previous line.
+
+![Image](keyStrokeDemonstration.PNG)
 * Can potentially update and run a program with two keystrokes (up + enter).
 * scp _File-Name_ cs15lwi22ail@ieng6.ucsd.edu:~/; ssh cs15lwi22ail@ieng6.ucsd.edu "javac _File-Name_; java _Class-Name_"
