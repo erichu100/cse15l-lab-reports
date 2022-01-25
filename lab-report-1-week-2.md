@@ -18,7 +18,7 @@
 # Moving Files with `scp`
 ![Image](sshTest.PNG)
 * Can transfer files from local machine to remote machine with `scp` command.
-* scp  _File-Name_  _ServerUrl_.
+* scp  _File-Name_  _ServerUrl_:~/;.
     * Must be run on local machine.
 
 # Setting an SSH Key
@@ -31,3 +31,6 @@
 ![Image](sshShortcuts.PNG)
 * Can use quotes to quickly run commands after `ssh`, but will return to local machine after the end quotes.
 * Semicolons string together commands in one line.
+* Can use the up arrow key to repeat previous line.
+* Can potentially update and run a program with two keystrokes (up + enter).
+* scp _File-Name_ cs15lwi22ail@ieng6.ucsd.edu:~/; ssh cs15lwi22ail@ieng6.ucsd.edu "javac _File-Name_; java _Class-Name_"
